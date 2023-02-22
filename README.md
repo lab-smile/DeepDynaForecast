@@ -1,2 +1,2 @@
-# DeepDynaTree
-Deep Dynamic Tree 
+# DeepDynaForcast
+Deep Dynamic Tree Forcasting Model
