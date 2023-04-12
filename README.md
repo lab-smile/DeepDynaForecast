@@ -23,9 +23,9 @@ singularity shell --nv singularity_deepdynatree.sif
 Example commands 
 ```sh
 # train a PDGLSTM model
-python main.py --model 'pdglstm' --model_num 0
+python main.py --model pdglstm --model_num 0
 # train a PDGLSTM model with specific setting
-python main.py --model 'pdglstm' --model_num 0 --batch_size 32 --init_lr 0.001 --min_lr 1e-6 --lr_decay_rate 0.1
+python main.py --model pdglstm --model_num 0 --batch_size 32 --init_lr 0.001 --min_lr 1e-6 --lr_decay_rate 0.1
 ```
 
 ## Results
