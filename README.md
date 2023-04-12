@@ -23,18 +23,10 @@ singularity shell --nv singularity_deepdynatree.sif
 Example commands 
 ```sh
 # train a PDGLSTM model
-python main.py --model pdglstm --model_num 0
+python main.py --model pdglstm_bn --model_num 0
 # train a PDGLSTM model with specific setting
-python main.py --model pdglstm --model_num 0 --batch_size 32 --init_lr 0.001 --min_lr 1e-6 --lr_decay_rate 0.1
+python main.py --model pdglstm_bn --model_num 0 --batch_size 32 --init_lr 0.001 --min_lr 1e-6 --lr_decay_rate 0.1
 ```
-
-## Results
-To use the [trained neural network models], please download files and unzip it to `dl`.  
-Please change the settings in [test/main_test.py] to run the test phase with different models.  
-```sh
-python main_test.py
-```
-Besides, scripts for generating figures in the main pages and supplementaries are avaliable at [models/post_aly.ipynb] and [models/post_aly_all.ipynb] respectively.
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
