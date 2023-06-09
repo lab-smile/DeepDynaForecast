@@ -44,7 +44,7 @@ Please change the settings in [test/main_test.py] to run the test phase with dif
 ```sh
 python main_test.py
 ```
-Besides, scripts for generating figures in the main pages and supplementaries are avaliable at the [test] folder.
+Besides, scripts for generating figures in the main pages and supplementaries are avaliable at the `test` folder.
 
 
 ## Coming soon...
