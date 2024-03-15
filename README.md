@@ -1,7 +1,8 @@
 # DeepDynaForecast
 
 This is a pytorch implementation of our research:  
-DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction
+DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction, which has been accepted by 
+PLOS Computational Biology.
 If you find our work useful in your research or publication, please cite our work.
 
 ## Dependencies
