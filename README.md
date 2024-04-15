@@ -1,9 +1,29 @@
-# DeepDynaForecast
+# DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction
 
-This is a pytorch implementation of our research:  
-DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction, which has been accepted by 
-PLOS Computational Biology.
-If you find our work useful in your research or publication, please cite our work.
+During an outbreak or sustained epidemic, accurate prediction of patterns in transmission risk can reliably inform public health strategies. Projections indicating growth or decline of transmission for specific risk groups can significantly enhance the optimization of interventions, especially when resources are limited. To address this, we present DeepDynaForecast, a cutting-edge deep learning algorithm designed for forecasting pathogen transmission dynamics. Uniquely, DeepDynaForecast was trained on in-depth simulation data, classifying samples according to their dynamics (growth, static, or decline) with accuracy of 91.6%. We evaluated the model’s performance and application using simulated outbreak data and empirical, large-scale data from the HIV epidemic in Florida between 2012 and 2020. We conclude DeepDynaForecast represents a significant advancement in genomics-mediated pathogen transmission characterization and has the potential to catalyze new research directions within virology, molecular biology, and public health.
+
+
+## Paper
+This repository provides the official implementation of the model in the following paper:
+
+**DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction**
+
+Chaoyue Sun<sup>1</sup>, Ruogu Fang<sup>1,2,3</sup>, Marco Salemi<sup>4,5</sup>, Mattia Prosperi<sup>5,6\*</sup> and Brittany Rife
+Magalis<sup>4,5\*</sup>
+
+<sup>1</sup> Department of Electrical and Computer Engineering, Herbert Wertheim College of Engineering, University
+of Florida, Gainesville, Florida, United States of America<br>
+<sup>2</sup> J. Crayton Pruitt Family Department of Biomedical
+Engineering, Herbert Wertheim College of Engineering, University of Florida, Gainesville, Florida, United
+States of America<br>
+<sup>3</sup> Center for Cognitive Aging and Memory, McKnight Brain Institute, University of Florida,
+Gainesville, Florida, United States of America<br>
+<sup>4</sup> Department of Pathology, Immunology, and Laboratory
+Medicine, University of Florida, Gainesville, Florida, United States of America<br>
+<sup>5</sup> Emerging Pathogens
+Institute, University of Florida, Gainesville, Florida, United States of America<br>
+<sup>6</sup> Department of Epidemiology,
+University of Florida, Gainesville, Florida, United States of America<br>
 
 ## Dependencies
 Please check the dependencies.txt.
@@ -48,8 +68,23 @@ python main_test.py
 Besides, scripts for generating figures in the main pages and supplementaries are avaliable at the `test` folder.
 
 
-## Coming soon...
-A website for users to apply DeepDynaForecast on Phylogenetic Trees.
+## Citation
+If you use this code, please cite our papers:
+```
+@article{sun2024deepdynaforecast,
+  title={DeepDynaForecast: Phylogenetic-informed graph deep learning for epidemic transmission dynamic prediction},
+  author={Sun, Chaoyue and Fang, Ruogu and Salemi, Marco and Prosperi, Mattia and Rife Magalis, Brittany},
+  journal={PLOS Computational Biology},
+  volume={20},
+  number={4},
+  pages={e1011351},
+  year={2024},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+```
+
+## Acknowledgement
+The authors acknowledge University of Florida Research Computing for providing computational resources and support that have contributed to the research results reported in this publication.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
