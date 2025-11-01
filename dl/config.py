@@ -41,8 +41,8 @@ def get_arguments():
 
     # Model Option
     model = parser.add_argument_group("Model options")
-    model.add_argument("--model", type=str, default="pdglstm_0",
-                       choices=["gcn","gat","gin","pdglstm_0","pdglstm_sc","pdglstm_bn"])
+    model.add_argument("--model", type=str, default="pdglstm_bn",
+                       choices=["gcn", "gin", "pdglstm_bn"])
     model.add_argument("-n", "--model_num", type=int, default=1, help="The number of model")
     model.add_argument("--loss", type=str, default="ce", choices=["ce"])
     model.add_argument("--loss_ignore_bg", type=bool, default=True, help="Set loss weight as 0 for bg nodes")
